@@ -1,0 +1,128 @@
+.radio-widget {
+  overflow: hidden;
+  width: 300px;
+  font-family: 'BenchNine', sans-serif, Arial;
+}
+
+.radio-bar {
+  height: 4em;
+  background-color: #eeae61;
+  -webkit-border-radius: 16px 16px 0 0;
+  -moz-border-radius: 16px 16px 0 0;
+  border-radius: 16px 16px 0 0;
+  color: white;
+}
+.radio-bar h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 3.2em;
+}
+.radio-bar i {
+  cursor: pointer;
+}
+.radio-bar .back-arrow {
+  border: solid;
+  border-width: 0 0.1em 0.1em 0;
+  display: inline;
+  float: left;
+  margin: 1.4em 0 0 1.4em;
+  width: 0.8em;
+  height: 0.8em;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.radio-bar .turn-off {
+  margin: 1.1em 1.4em 0 0;
+  display: inline;
+  float: right;
+  background: url(../img/switch.png) no-repeat;
+  background-size: 1.2em 1.4em;
+  height: 1.4em;
+  width: 1.2em;
+}
+
+.radio-body {
+  width: 318px;
+  height: 270px;
+  background-color: #2a2a35;
+  font-size: 1.25em;
+  color: #a3acbe;
+  border-bottom: 1px solid #4d505c;
+  overflow: auto;
+}
+.radio-body .radio-stations {
+  margin: 0;
+  list-style: none;
+  padding: 6%;
+}
+.radio-body .station-menu {
+  display: none;
+  text-align: center;
+}
+.radio-body .station-img {
+  display: inline;
+  width: 50%;
+  margin: 5% auto;
+  border-radius: 50%;
+  border: 2px solid #a2abbd;
+  content: url(http://img.freepik.com/darmowe-wektory/retro-radioodbiorniki_23-2147501049.jpg?size=338&ext=jpg);
+}
+.radio-body .minus, .radio-body .plus {
+  display: inline;
+  border: none;
+  margin: 25% auto;
+  cursor: pointer;
+}
+.radio-body .minus {
+  float: left;
+  background: url(../img/minus.png) no-repeat;
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+}
+.radio-body .plus {
+  float: right;
+  background: url(../img/plus.png) no-repeat;
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+}
+.radio-body .radio-stations li {
+  padding: 3% 0;
+  line-height: 1.6em;
+  border-bottom: 1px solid #4d505c;
+  cursor: pointer;
+}
+.radio-body .radio-stations li:last-child {
+  border: none;
+}
+.radio-body .radio-stations .fm {
+  font-weight: 700;
+  float: right;
+}
+
+.radio-footer {
+  background-color: #22222b;
+  height: 4em;
+  color: #a3acbe;
+  text-align: center;
+  -webkit-border-radius: 0 0 16px 16px;
+  -moz-border-radius: 0 0 16px 16px;
+  border-radius: 0 0 16px 16px;
+}
+.radio-footer * {
+  margin: 0;
+}
+.radio-footer .header {
+  color: #eeae61;
+  padding-top: 0.9em;
+  font-size: 0.7em;
+  font-weight: 700;
+}
+.radio-footer .current-station-name {
+  font-size: 1.25em;
+  line-height: 1.4em;
+}
